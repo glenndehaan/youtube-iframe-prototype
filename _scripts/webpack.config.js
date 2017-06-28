@@ -5,7 +5,9 @@ module.exports = {
         poll: true
     },
 
+    entry: `${__dirname}/../public/js/main.js`,
+
     stats: {
         colors: true,
-    },
+    }
 };
