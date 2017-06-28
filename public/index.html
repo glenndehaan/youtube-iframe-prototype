@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube Iframe API</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>CS::GO ELEAGUE Major 2017 - Atlanta</h2>
+
+        <div id="container">
+            <div id="color">
+                <p>
+                    This video ended! Sorry...<br/>Let's start a new one in: <span id="countdown">3</span>
+                </p>
+            </div>
+            <div id="player-frame">
+                <iframe id="player" width="640" height="360" src="https://www.youtube.com/embed/_PYjxjNrDsw?enablejsapi=1&controls=0&showinfo=0&rel=0&showsearch=0&iv_load_policy=3" frameborder="0"></iframe>
+            </div>
+
+            <div id="more-videos">Loading more video's...</div>
+        </div>
+
+        <script src="js/yt.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

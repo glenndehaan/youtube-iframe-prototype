@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+}
+
+#player-frame {
+    float: left;
+}
+
+#more-videos {
+    float: right;
+}
+
+#color {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 640px;
+    height: 360px;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+}
